@@ -19,9 +19,4 @@ class Tracker():
             file_content = f.read()
             print(file_content)
 
-Tracker1 = Tracker()
-Tracker1.increment()
-Tracker1.increment()
-print(str(Tracker1))
-Tracker1.save_to_file()
-Tracker1.print_content()
+
