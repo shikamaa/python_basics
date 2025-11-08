@@ -4,7 +4,10 @@ class Tracker():
 
     def increment(self):
         self._count += 1
-
+        
+    def reset(self):
+        self._count = 0
+    
     def save_to_file(self):
         with open('data.txt', 'w') as f:
             thing = str(self._count)

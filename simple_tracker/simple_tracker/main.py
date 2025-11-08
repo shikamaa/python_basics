@@ -26,4 +26,5 @@ try:
 
         time.sleep(interval_val)
 finally:
+    Tracker1.reset()
     pass      
