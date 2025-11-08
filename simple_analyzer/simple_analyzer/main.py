@@ -21,7 +21,6 @@ except Exception as e:
 
 analyzer = analyzer.Analyzer()
 
-
 try:
     while True:
         num = random.randint(1, 100)
