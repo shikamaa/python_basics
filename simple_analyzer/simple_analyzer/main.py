@@ -35,7 +35,11 @@ try:
         print(f'Total odd: {analyzer.odd_count()}')
         print(f'Highest number: {analyzer.highest_number()}')
         print(f'Increasing pairs: {analyzer.increasing_pairs()}')
-
+        print(f'New features:')
+        #print(f'Average:' {analyzer.average()})
+        #print(f'Difference between max and min in the list:' {analyzer.difference_min_max()})
+        print('new print')
+        
         current_seconds = time.localtime().tm_sec
         if len(analyzer._lst) >= sequence_length and current_seconds == 0:
             print('\nConditions met — stopping program.')
