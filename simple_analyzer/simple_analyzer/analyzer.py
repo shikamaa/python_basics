@@ -22,3 +22,8 @@ class Analyzer:
             if self._lst[i] > self._lst[i - 1]:
                 count += 1
         return count
+# new fucntions for feature improvements
+    def average(self):
+        return sum(self._lst) / len(self._lst)
+    def difference_min_max(self):
+        return max(self._lst) - min(self._lst) 
